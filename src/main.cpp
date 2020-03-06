@@ -30,7 +30,6 @@ ISR(TIMER0_COMPA_vect) {
 }
 
 void setup() {
-    char buffer[15];
     Serial.begin(9600);
 
     // set up a recuring timer interrupt
