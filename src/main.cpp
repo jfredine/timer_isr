@@ -52,9 +52,10 @@ void setup() {
 void loop() {
     Serial.print("Count: ");
     Serial.print(total_isr_count);
-    Serial.print("\n");
+    Serial.println("");
     Serial.print("Wall Time: ");
     Serial.print(micros());
-    Serial.print("\n\n");
+    Serial.println("");
+    Serial.println("");
     delay(10000);
 }
